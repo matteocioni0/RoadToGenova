@@ -1,0 +1,8 @@
+function toggleTaskCompleted(event) {
+    const element = event.target;
+    element.classList.toggle("completed");
+}
+
+document.querySelectorAll('#todoList li').forEach(item => {
+    item.addEventListener('click', toggleTaskCompleted);
+});

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Road to Genova TodoList</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Road to Genova TodoList</h2>
+
+<ul id="todoList">
+  <li onclick="toggleTaskCompleted(event)">Task 1</li>
+  <li onclick="toggleTaskCompleted(event)">Task 2</li>
+  <li onclick="toggleTaskCompleted(event)">Task 3</li>
+</ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
